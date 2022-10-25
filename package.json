@@ -1,0 +1,14 @@
+{
+  "name": "resource-center",
+  "version": "1.0.0",
+  "description": "Resource center-savannah silicah api",
+  "main": "index.js",
+  "scripts": {
+    "test": "test.js"
+  },
+  "keywords": [
+    "resource-center"
+  ],
+  "author": "savannah-silica-node-team",
+  "license": "ISC"
+}
