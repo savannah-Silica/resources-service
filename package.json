@@ -4,7 +4,8 @@
   "description": "Resource center-savannah silicah api",
   "main": "index.js",
   "scripts": {
-    "test": "test.js"
+    "test": "test.js",
+    "start": "nodemon index.js"
   },
   "keywords": [
     "resource-center"
@@ -12,7 +13,11 @@
   "author": "savannah-silica-node-team",
   "license": "ISC",
   "dependencies": {
+    "dotenv": "^16.0.3",
     "express": "^4.18.2",
-    "nodemon": "^2.0.20"
+    "nodemon": "^2.0.20",
+    "pg": "^8.8.0",
+    "pg-hstore": "^2.3.4",
+    "sequelize": "^6.25.3"
   }
 }
