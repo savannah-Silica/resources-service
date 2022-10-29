@@ -3,8 +3,9 @@
   "version": "1.0.0",
   "description": "Resource center-savannah silicah api",
   "main": "index.js",
-  "scripts": {
-    "test": "test.js"
+    "scripts": {
+    "test": "test.js",
+    "start": "nodemon index.js"
   },
   "keywords": [
     "resource-center"
@@ -13,6 +14,11 @@
   "license": "ISC",
   "dependencies": {
     "express": "^4.18.2",
+    "install": "^0.13.0",
+    "swagger-jsdoc": "^6.2.5",
+    "swagger-ui-express": "^4.5.0"
+  },
+  "devDependencies": {
     "nodemon": "^2.0.20"
   }
 }
