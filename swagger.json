@@ -1,0 +1,52 @@
+{
+    "swagger": "2.0.0",
+    "info": {
+        "version": "1.0.0",
+        "title": "Resource-service",
+        "description": "Service informaion"
+        },
+    "schemes": [ "http" ],
+    "host": "localhost:3000",
+    "basePath": "http://localhost:3000",
+
+    "tags": [
+        {
+            "name": "Resources",
+            "description": "API for resources in the system"
+        }
+    ],
+
+ "definitions": {
+    "id": {
+        "properties": {
+              "type": "string"
+            }
+        },
+    "Video": {
+        "type": "object",
+        "properties": {
+             "type": "string"
+            },
+            "name": {
+                "type": "string"
+            },
+            "isNew": {
+                "type": "boolean"
+            }
+        },
+
+        "Images": {
+            "type": "object",
+            "properties": {
+                 "type": "string"
+                },
+                "name": {
+                    "type": "string"
+                }
+        }
+    }
+}
+
+
+
+    
